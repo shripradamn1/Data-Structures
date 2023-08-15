@@ -1,3 +1,15 @@
+str = output
+Output: t
+Explanation:  t and u are the characters
+with the same frequency, but t is
+lexicographically smaller.
+Input:
+str = testsample
+Output: e
+Explanation: e is the character which
+is having the highest frequency.
+
+
 public static char getMaxOccuringChar(String s)
     {
        HashMap<Character,Integer> x=new HashMap<>();
